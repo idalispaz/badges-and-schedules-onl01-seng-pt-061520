@@ -27,3 +27,5 @@ def printer(people)
     return name 
   assign_rooms(attendees)
     return room
+  end
+end
