@@ -23,10 +23,5 @@ def assign_rooms(attendees)
 end
 
 def printer(people)
-  batch_badge_creator(name)
-    return "Hello, My name is #{name}!"
-  end
-  assign_rooms(attendees)
-    return "Hello! #{name} You'll be assigned to room #{counter}!"
-  end 
+  batch_badge_creator(
 end
