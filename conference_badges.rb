@@ -15,7 +15,7 @@ end
 def assign_rooms(attendees)
   new_array = []
   counter = 1
-  attendees.each do |name|
+  attendees.each do |room|
   new_array << ("Hello, #{name}! You'll be assigned to room #{counter}!")
   counter+=1
   end
@@ -24,5 +24,7 @@ end
 
 def printer(people)
   batch_badge_creator(array).each do |name|
-    return 
+    puts name 
+  assign_rooms(attendees).each do |room|
+    puts room
 end
